@@ -5,8 +5,9 @@
 }
 
 header {
-  padding: 20px 0;
+  width: 100%;
   text-align: center;
+  padding: 20px 0;
 }
 
 .nav-list {
@@ -17,8 +18,17 @@ header {
   border-top: 1px solid #848282;
 }
 
+.nav-list-item {
+  list-style: none;
+  margin: 0 20px;
+  display: inline-block;
+}
+
 .main {
   width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box1 {
@@ -96,6 +106,11 @@ header {
 footer {
   width: 100%;
   height: 120px;
+  line-height: 120px;
   text-align: center;
   background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
 }
